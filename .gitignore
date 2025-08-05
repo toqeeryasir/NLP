@@ -1,0 +1,16 @@
+# Ignore all hidden files and directories
+.*
+!.gitignore
+
+# Except specific hidden files you want to keep (like .gitignore itself)
+# Add more exceptions here if needed
+
+# Specific common hidden directories to ignore
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Ignore CSV files (optional)
+*.csv
+
+# Ignore Jupyter notebooks (optional - remove if you want to track them)
+*.ipynb
